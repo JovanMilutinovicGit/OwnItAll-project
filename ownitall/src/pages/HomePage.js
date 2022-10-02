@@ -135,9 +135,6 @@ const HomePage = () => {
         </div>
       </div>
       <ListCards />
-      <div className="footer">
-        <Footer />
-      </div>
     </div>
   );
 };
