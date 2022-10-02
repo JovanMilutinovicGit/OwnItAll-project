@@ -1,0 +1,44 @@
+.footer-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 30px;
+}
+
+.footer-right-side {
+  color: white;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-right-side h3 {
+  font-size: 20px;
+  font-weight: 300px;
+}
+.email-input {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+input {
+  width: 255px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  background-color: #3c3d45;
+  color: #d9dbe1;
+}
+
+.email-input > img {
+  position: absolute;
+  right: 9px;
+  cursor: pointer;
+}
+
+.social-media img {
+  width: 24px;
+}

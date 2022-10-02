@@ -1,0 +1,33 @@
+.card-item {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  box-shadow: 1px 4px 16px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 4px 16px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 4px 16px 1px rgba(0, 0, 0, 0.75);
+}
+
+.card-item-contet {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.card-item-contet > img {
+  width: 100%;
+  height: 100%;
+}
+
+.likes {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #22080b;
+  padding: 8px 15px;
+  color: white;
+}
+#like-icon {
+  cursor: pointer;
+}

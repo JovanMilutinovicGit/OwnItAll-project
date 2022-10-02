@@ -1,0 +1,11 @@
+.reserve-btn {
+  background-color: #be852c;
+  color: white;
+  padding: 11px;
+  width: 246px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}

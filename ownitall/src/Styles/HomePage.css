@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3 {
+  font-size: 40px;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 570px;
+}
+.hero-section img {
+  width: 100%;
+  height: 100%;
+}
+.content {
+  top: 0px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  position: absolute;
+}
+.text-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  width: 40%;
+}
+.text-content h2 {
+  font-weight: 800;
+  font-size: 48px;
+  margin-bottom: 11px;
+}
+.text-content p {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 20px;
+  color: #fffaf4;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 11px;
+}
+.reserve-btn {
+  background-color: #be852c;
+  color: white;
+  padding: 11px;
+  width: 246px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.people-image {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+.left-side-photo {
+}
+.right-side-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-side-desc h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.right-side-desc > p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.our-packages {
+  width: 100%;
+  position: relative;
+}
+.our-package-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 80px;
+}
+.our-packages img {
+  width: 100%;
+  position: relative;
+}
+
+.first-package {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  top: 0;
+  color: white;
+}
+
+ul {
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.image {
+  width: 500px;
+}
+
+.second-package {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  top: 0;
+  color: white;
+  margin-top: 100px;
+}
+.second-image {
+  width: 500px;
+}
+.second-package-right {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.second-package-right > ul {
+  font-size: 18px;
+}
+.third-package {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  top: 0;
+  color: white;
+  margin-top: 100px;
+}
+.third-image {
+  width: 500px;
+}
