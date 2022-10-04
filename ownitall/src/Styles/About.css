@@ -17,11 +17,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
 }
 
 .hero-image-content p {
   margin: 20px 0px;
-
   text-align: justify;
   line-height: 24px;
 }
@@ -30,11 +31,18 @@
   align-items: center;
   justify-content: space-around;
   padding: 90px;
+  font-family: "Varela Round", sans-serif;
 }
 
 .about-description-left-side {
   width: 550px;
 }
+
+.about-description-left-side p {
+  text-align: justify;
+  margin-top: 20px;
+}
+
 .owner {
   display: flex;
   width: 100%;
@@ -43,6 +51,7 @@
   box-shadow: -2px -5px 66px 0px rgba(237, 160, 168, 0.79);
   -webkit-box-shadow: -2px -5px 66px 0px rgba(237, 160, 168, 0.79);
   -moz-box-shadow: -2px -5px 66px 0px rgba(237, 160, 168, 0.79);
+  font-family: "Varela Round", sans-serif;
 }
 .owner-left {
   width: 50%;

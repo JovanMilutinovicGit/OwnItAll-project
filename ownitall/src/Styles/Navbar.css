@@ -17,10 +17,10 @@
   text-decoration: none;
   color: #18191f;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 20px;
+  font-family: "Varela Round", sans-serif;
 }
 #btn {
   background-color: #be852c;
@@ -29,6 +29,6 @@
   font-weight: 700;
   text-transform: uppercase;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Varela Round", sans-serif;
   cursor: pointer;
 }

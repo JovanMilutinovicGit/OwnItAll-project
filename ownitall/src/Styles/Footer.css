@@ -13,6 +13,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: "Varela Round", sans-serif;
 }
 .footer-right-side h3 {
   font-size: 20px;
@@ -31,6 +32,7 @@ input {
   border: none;
   background-color: #3c3d45;
   color: #d9dbe1;
+  font-family: "Varela Round", sans-serif;
 }
 
 .email-input > img {

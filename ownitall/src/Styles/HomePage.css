@@ -30,11 +30,13 @@ h3 {
   flex-direction: column;
   color: white;
   width: 40%;
+  font-family: "Varela Round", sans-serif;
 }
 .text-content h2 {
   font-weight: 800;
   font-size: 48px;
   margin-bottom: 11px;
+  font-family: "Varela Round", sans-serif;
 }
 .text-content p {
   font-style: normal;
@@ -43,19 +45,10 @@ h3 {
   line-height: 20px;
   color: #fffaf4;
   text-align: left;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Varela Round", sans-serif;
   margin-bottom: 11px;
 }
-.reserve-btn {
-  background-color: #be852c;
-  color: white;
-  padding: 11px;
-  width: 246px;
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  cursor: pointer;
-}
+
 .people-image {
   width: 50%;
   display: flex;
@@ -68,17 +61,18 @@ h3 {
   justify-content: space-around;
   padding: 80px;
 }
-.left-side-photo {
-}
+
 .right-side-desc {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: "Varela Round", sans-serif;
 }
 
 .right-side-desc h3 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 10px;
+  font-family: "Varela Round", sans-serif;
 }
 
 .right-side-desc > p {
@@ -94,6 +88,7 @@ h3 {
   top: 0;
   width: 100%;
   padding: 80px;
+  font-family: "Varela Round", sans-serif;
 }
 .our-packages img {
   width: 100%;
