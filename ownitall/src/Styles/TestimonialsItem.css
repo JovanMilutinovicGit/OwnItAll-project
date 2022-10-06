@@ -1,0 +1,28 @@
+.testimonials-item {
+  width: 350px;
+  height: 200px;
+  margin: 30px;
+}
+
+.testimonials-item .message {
+  width: 300px;
+  height: 150px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: 5px solid #be852c;
+}
+
+.user-data {
+  display: flex;
+  align-items: center;
+}
+
+.user-data-left img {
+  border-radius: 50px;
+}
+.user-data-right {
+  color: black;
+  font-weight: bold;
+}

@@ -4,6 +4,8 @@ import women from "../assets/package-women.png";
 import heroimage from "../assets/HeroSection.png";
 import "../Styles/Packages.css";
 import CardWork from "../components/CardWork.js";
+import PackageList from "../components/PackageList.js";
+import ListTestimonials from "../components/ListTestimonials.js";
 
 const Packages = () => {
   return (
@@ -62,6 +64,16 @@ const Packages = () => {
           />
         </div>
         <ReserveBtn />
+      </div>
+      <div className="video-sample">
+        <h3>Video sample of a 360 photo booth video</h3>
+      </div>
+      <div className="package-list">
+        <h2>Our Packages</h2>
+        <PackageList />
+      </div>
+      <div className="testimonials">
+        <ListTestimonials />
       </div>
     </div>
   );
