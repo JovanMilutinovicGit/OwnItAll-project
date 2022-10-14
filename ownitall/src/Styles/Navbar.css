@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-around;
   padding: 20px;
+  align-items: center;
 }
 .left-side {
   display: flex;
@@ -31,4 +32,21 @@
   color: white;
   font-family: "Varela Round", sans-serif;
   cursor: pointer;
+}
+
+.navbar i {
+  display: none;
+}
+
+@media screen and (max-width: 420px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .right-side {
+    display: none;
+  }
+  .navbar i {
+    display: block;
+  }
 }

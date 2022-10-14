@@ -4,3 +4,11 @@
   justify-content: space-around;
   margin: 40px;
 }
+
+@media screen and (max-width: 420px) {
+  .listCards {
+    margin: 0px;
+    display: flex;
+    justify-items: normal;
+  }
+}

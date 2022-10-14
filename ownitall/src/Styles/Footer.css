@@ -44,3 +44,11 @@ input {
 .social-media img {
   width: 24px;
 }
+@media screen and (max-width: 420px) {
+  .footer-section {
+    width: 100%;
+  }
+  input {
+    width: 200px;
+  }
+}

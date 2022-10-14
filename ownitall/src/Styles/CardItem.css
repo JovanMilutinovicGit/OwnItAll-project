@@ -32,3 +32,11 @@
 #like-icon {
   cursor: pointer;
 }
+
+@media screen and (max-width: 420px) {
+  .card-item {
+    margin: 5px;
+    width: 180px;
+    height: 250px;
+  }
+}

@@ -27,6 +27,7 @@ const Navbar = () => {
           Book Now
         </Link>
       </div>
+      <i class="fa fa-bars"></i>
     </div>
   );
 };
