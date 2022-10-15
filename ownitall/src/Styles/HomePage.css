@@ -85,7 +85,9 @@ h3 {
 }
 .our-package-content {
   position: absolute;
-  top: 0;
+  top: 40%;
+  left: 10%;
+  transform: translate(-10%, -40%);
   width: 100%;
   padding: 80px;
   font-family: "Varela Round", sans-serif;
@@ -101,7 +103,6 @@ h3 {
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  top: 0;
   color: white;
 }
 
@@ -119,7 +120,6 @@ ul {
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  top: 0;
   color: white;
   margin-top: 100px;
 }
@@ -141,7 +141,6 @@ ul {
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  top: 0;
   color: white;
   margin-top: 100px;
 }
@@ -191,73 +190,45 @@ ul {
   .right-side-desc p {
     text-align: justify;
   }
-  .our-package-content {
-    padding: 9px;
-  }
   .our-packages {
+  }
+  .our-package-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    padding: 0;
   }
-  .first-package {
-    display: flex;
-    width: 100%;
-  }
-  .first-package-left ul {
+  .our-package-content ul {
     display: none;
-  }
-  .first-package-left {
-    font-size: 15px;
-    width: 50%;
-    height: 100%;
-  }
-  .first-package-right {
-    width: 50%;
-  }
-  .image {
-    width: 100%;
-    display: flex;
-    align-items: center;
   }
 
-  .second-package {
-    display: flex;
-    width: 100%;
-    margin-top: 25px;
-  }
-  .second-package-right ul {
-    display: none;
-  }
-  .second-package-left {
-    font-size: 15px;
-    width: 50%;
-    height: 100%;
-  }
-  .second-package-right {
-    width: 50%;
-  }
-  .second-image {
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
-  .third-package {
-    display: flex;
-    width: 100%;
-    margin-top: 25px;
-  }
-  .third-package-left ul {
-    display: none;
-  }
-  .third-package-left {
-    font-size: 15px;
-    width: 50%;
-    height: 100%;
-  }
+  .image,
+  .second-image,
   .third-image {
+    width: 140px;
+  }
+  .our-package-content img {
+    width: 100%;
+  }
+  .first-package,
+  .second-package,
+  .third-package {
     width: 100%;
     display: flex;
+    margin-top: 30px;
+  }
+  .second-package-right,
+  .third-package-left,
+  .first-package-left {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    width: 50%;
+  }
+  .first-package-right,
+  .second-package-left,
+  .third-package-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
   }
 }

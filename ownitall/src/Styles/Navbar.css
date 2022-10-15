@@ -3,6 +3,7 @@
   justify-content: space-around;
   padding: 20px;
   align-items: center;
+  z-index: 222;
 }
 .left-side {
   display: flex;

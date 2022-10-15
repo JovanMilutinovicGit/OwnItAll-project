@@ -62,10 +62,6 @@ const HomePage = () => {
           <div className="first-package">
             <div className="first-package-left">
               <h3>2 Hours</h3>
-              <p>
-                (This package does not include corporate, school, or wedding
-                events)
-              </p>
               <ul>
                 Included Features:
                 <li>Unlimited Slow Motion Video Captures</li>
@@ -93,7 +89,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="second-package-right">
-              <h3>2 Hours</h3>
+              <h3>3 Hours</h3>
               <ul>
                 Included Features:
                 <li>Unlimited Slow Motion Video Captures</li>
