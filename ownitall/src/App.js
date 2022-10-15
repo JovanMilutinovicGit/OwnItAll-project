@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage.js";
 import About from "./pages/About.js";
 import Footer from "./components/Footer.js";
 import Packages from "./pages/Packages.js";
+import Contact from "./pages/Contact.js";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/packages" element={<Packages />} />
+        <Route exact path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>

@@ -24,7 +24,7 @@
   align-items: center;
   position: relative;
 }
-input {
+.email-input input {
   width: 255px;
   height: 40px;
   border-radius: 8px;
@@ -48,7 +48,7 @@ input {
   .footer-section {
     width: 100%;
   }
-  input {
+  .email-input input {
     width: 200px;
   }
 }
